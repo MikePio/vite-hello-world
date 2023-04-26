@@ -32,7 +32,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style>
   h1{
     color: white;
   }
