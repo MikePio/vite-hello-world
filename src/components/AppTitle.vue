@@ -13,6 +13,10 @@ export default {
   <h1>{{ title }}</h1>
 </template>
 
-<style>
+<!-- ! Non funziona in quanto la classe h1 scritta in App.vue si sovrappone alla seguente -->
+<style scoped>
+h1{
+    color: aqua;
+  }
 
 </style>
