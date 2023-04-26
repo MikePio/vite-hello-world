@@ -26,12 +26,27 @@ export default {
 
 <template>
   <AppHero/>
-  <h1>{{ testString }}</h1>
-  <AppTitle/>
+  <div class="container-body">
+    <h1>{{ testString }}</h1>
+    <AppTitle/>
+  </div>
 </template>
 
 <style scoped>
   h1{
-    color: red;
+    color: white;
   }
-</style>
+
+  .container-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .container-body *{
+    margin: 30px;
+  }
+
+  </style>
